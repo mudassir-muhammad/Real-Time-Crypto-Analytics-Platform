@@ -1,3 +1,3 @@
-The provided db file is just for proof (dont put it in the folder) where you load the code, Code will automatically make db file by its own
+The provided db file is just for proof (dont put it in the folder) where you run the code, Code will automatically make db file by its own
 "For the database requirement, I choose sqllite In the final 'Load' step of my ETL pipeline, I take my cleaned Pandas dataframe and use the .to_sql() function. This saves the data straight into a local file called crypto_data.db(file create on runtime)
 I set the code to 'append' the data, which means it simply adds new rows of live prices without deleting the old ones. This allows me to build a full historical record of the market trends easily, without needing to install or manage a heavy, external database server."
